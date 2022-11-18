@@ -7,7 +7,7 @@ from typing import Type
 from attr import dataclass
 
 # Maker Trader Game
-# 0 to 100, Maker makes two sided market with unlimited size, taker chooses which side to take.
+# 0 to 100, Maker makes two sided market with max size 1000, taker chooses which side to take.
 # Three rounds. Taker is Obliged to trade. Taker knows true value. Taker has to trade on 10 or narrower market
 # No guaranteed trade if large than 10
 
